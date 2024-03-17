@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppSalaClassificacao</string>
+    <string name="text_titulo">Classificação Separaçao HVI</string>
+    <string name="text_n_mala">N da Mala</string>
+    <string name="text_n_fardo">Número do Fardo</string>
+    <string name="text_n_Mic">MIC</string>
+    <string name="text_n_Sfi">SFI</string>
+    <string name="text_n_Uhm">UHM</string>
+    <string name="text_n_Res">RES</string>
+    <string name="text_n_regrahvi">Regra de HVI</string>
+    <string name="text_n_bloco">Bloco</string>
+</resources>
