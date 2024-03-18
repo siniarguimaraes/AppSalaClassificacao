@@ -9,4 +9,5 @@
     <string name="text_n_Res">RES</string>
     <string name="text_n_regrahvi">Regra de HVI</string>
     <string name="text_n_bloco">Bloco</string>
+    <string name="btn_ler_etiqueta">Ler Etiqueta</string>
 </resources>

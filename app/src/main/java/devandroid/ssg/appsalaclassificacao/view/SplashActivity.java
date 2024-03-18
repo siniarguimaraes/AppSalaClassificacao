@@ -1,4 +1,4 @@
-package devandroid.ssg.appsalaclassificacao.View;
+package devandroid.ssg.appsalaclassificacao.view;
 
 import android.content.Intent;
 import android.os.Bundle;

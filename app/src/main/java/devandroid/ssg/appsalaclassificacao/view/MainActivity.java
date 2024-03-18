@@ -1,6 +1,8 @@
-package devandroid.ssg.appsalaclassificacao.View;
+package devandroid.ssg.appsalaclassificacao.view;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +14,16 @@ import devandroid.ssg.appsalaclassificacao.R;
 
 public class MainActivity extends AppCompatActivity {
 
+    TextView textMala;
+    TextView textFardo;
+    TextView textMic;
+    TextView textRes;
+    TextView textUhm;
+    TextView textSfi;
+    TextView textRegraHvi;
+    TextView textBloco;
+    Button btnLerEtiqueta;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,5 +34,6 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
     }
 }
