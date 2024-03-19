@@ -26,18 +26,18 @@ public class AlgodaoDB extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String sqlTabelaAlgodao
                 = "CREATE TABLE algodao (id INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                "numeroMala REAL, " +
-                "etiquetaFardoTEXT, " +
-                "fardoMic REAL," +
+                "numeroMala TEXT, " +
+                "etiquetaFardo TEXT, " +
+                "fardoSequencia TEXT, " +
+                "fardoTipo TEXT, " +
+                "fardoMic REAL, " +
                 "fardoRes REAL, " +
                 "fardoUhm REAL, " +
                 "fardoSfi REAL, " +
-                "fardoRegraHvi, " +
-                "fardoBloco)";
+                "fardoRegraHvi TEXT, " +
+                "fardoBloco TEXT)";
 
-        db.execSQL(sqlTabelaAlgodao);
-
-
+       db.execSQL(sqlTabelaAlgodao);
 
     }
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {

@@ -11,6 +11,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import devandroid.ssg.appsalaclassificacao.R;
+import devandroid.ssg.appsalaclassificacao.database.AlgodaoDB;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -35,6 +36,8 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+
+                AlgodaoDB db = new AlgodaoDB(SplashActivity.this);
 
                 Intent telaPrincipal = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(telaPrincipal);
